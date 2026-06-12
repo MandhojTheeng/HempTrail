@@ -22,7 +22,7 @@ const journeyItems = [
     number: '03',
     eyebrow: 'Purpose',
     title: 'The final piece is made to move with you every day.',
-    text: 'From work to travel, shopping to short trips, HempTrail bags are made to be used, not only displayed.',
+    text: 'From work to travel, shopping to short trips, Hemp bags are made to be used, not only displayed.',
   },
 ]
 
@@ -115,7 +115,7 @@ export default function OurStoryPage() {
             </h1>
 
             <p className="ht-story-fade ht-story-delay-2 mt-8 max-w-xl text-[18px] leading-9 text-[#222222]/68">
-              HempTrail creates handmade hemp bags and accessories shaped by natural
+              Hemp creates handmade hemp bags and accessories shaped by natural
               fiber, practical design, and the quiet craft culture of Nepal.
             </p>
 
@@ -140,7 +140,7 @@ export default function OurStoryPage() {
             <div className="absolute right-0 top-0 h-[540px] w-[72%] overflow-hidden bg-[#D8C3A5] shadow-[0_30px_80px_rgba(34,34,34,0.12)]">
               <img
                 src={storyBackpack}
-                alt="HempTrail handmade hemp backpack"
+                alt="Hemp handmade hemp backpack"
                 className="h-full w-full object-cover object-top"
               />
             </div>
@@ -169,7 +169,7 @@ export default function OurStoryPage() {
           </p>
 
           <h2 className="mt-5 font-serif text-[46px] font-bold leading-[0.98] tracking-[-0.06em] text-[#1F3D2B] sm:text-[72px]">
-            HempTrail was made to feel honest before it feels branded.
+            Hemp was made to feel honest before it feels branded.
           </h2>
 
           <p className="mx-auto mt-9 max-w-3xl text-[18px] leading-9 text-[#222222]/66">
@@ -196,7 +196,7 @@ export default function OurStoryPage() {
               </h2>
 
               <p className="mt-8 max-w-xl text-[17px] leading-9 text-[#FAF7F0]/68">
-                Before a HempTrail product reaches the customer, it moves through a
+                Before a Hemp product reaches the customer, it moves through a
                 simple but careful process: material, making, purpose. Nothing is added
                 only for decoration. Every detail has to support real daily use.
               </p>
@@ -278,7 +278,7 @@ export default function OurStoryPage() {
             <div className="absolute bottom-0 right-0 h-[54%] w-[62%] overflow-hidden bg-[#D8C3A5] shadow-[0_30px_80px_rgba(34,34,34,0.14)]">
               <img
                 src={storyWorkshop}
-                alt="HempTrail handmade product process"
+                alt="Hemp handmade product process"
                 className="h-full w-full object-cover object-top transition duration-700 hover:scale-105"
               />
             </div>
@@ -306,7 +306,7 @@ export default function OurStoryPage() {
 
               <div className="mt-9 space-y-6 text-[17px] leading-9 text-[#222222]/66">
                 <p>
-                  HempTrail avoids unnecessary decoration. The products are built around
+                  Hemp avoids unnecessary decoration. The products are built around
                   texture, practical pockets, dependable straps, and natural colors that
                   work with everyday clothing.
                 </p>
@@ -345,7 +345,7 @@ export default function OurStoryPage() {
               </h2>
 
               <p className="mt-8 text-[17px] leading-8 text-[#FAF7F0]/68">
-                That is why every HempTrail product is made for daily use first. It should
+                That is why every Hemp product is made for daily use first. It should
                 feel comfortable, useful, strong, and easy to return to every day.
               </p>
 
@@ -361,7 +361,7 @@ export default function OurStoryPage() {
           <div className="relative min-h-[720px] overflow-hidden bg-[#173020]">
             <img
               src={storyBackpack}
-              alt="HempTrail hemp backpack"
+              alt="Hemp hemp backpack"
               className="h-full w-full object-cover object-top"
             />
             <div className="absolute inset-0 bg-[#1F3D2B]/10" />

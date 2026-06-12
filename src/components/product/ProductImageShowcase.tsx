@@ -31,7 +31,7 @@ export function ProductImageShowcase({ product }: ProductImageShowcaseProps) {
       />
 
       <div className="absolute bottom-0 left-0 hidden text-[10px] font-bold uppercase tracking-[0.18em] text-[#9A6B4F] lg:block">
-        HempTrail / {product.category}
+        Hemp / {product.category}
       </div>
     </div>
   )

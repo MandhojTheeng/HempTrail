@@ -33,7 +33,7 @@ export function CategoryHeader({
             </Link>
 
             <p className="mt-8 text-[11px] font-bold uppercase tracking-[0.22em] text-[#9A6B4F]">
-              HempTrail Category
+              Hemp Category
             </p>
 
             <h1 className="mt-3 max-w-4xl font-serif text-[58px] font-bold leading-[0.86] tracking-[-0.08em] text-[#1F3D2B] sm:text-[86px] lg:text-[108px]">

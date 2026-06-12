@@ -68,7 +68,7 @@ export default function AccountPage() {
           <div className="mb-10 grid grid-cols-1 gap-6 border-b border-[#1F3D2B]/10 pb-8 lg:grid-cols-[1fr_auto] lg:items-end">
             <div>
               <p className="text-[11px] font-bold uppercase tracking-[0.3em] text-[#9A6B4F]">
-                HempTrail Account
+                Hemp Account
               </p>
 
               <h1 className="mt-3 font-serif text-[48px] font-semibold uppercase leading-[0.86] tracking-[-0.07em] text-[#1F3D2B] sm:text-[76px] lg:text-[96px]">
@@ -91,7 +91,7 @@ export default function AccountPage() {
                   </p>
 
                   <h2 className="mt-5 max-w-xl font-serif text-[44px] font-semibold uppercase leading-[0.88] tracking-[-0.06em] text-[#1F3D2B] sm:text-[64px]">
-                    Simple access to your HempTrail orders.
+                    Simple access to your Hemp orders.
                   </h2>
 
                   <p className="mt-6 max-w-md text-[14px] leading-7 text-[#222222]/60">
@@ -187,7 +187,7 @@ export default function AccountPage() {
 
                   <p className="mt-4 max-w-xl text-[14px] leading-7 text-[#222222]/58">
                     {authMode === 'login'
-                      ? 'Enter your email and password to access your HempTrail account.'
+                      ? 'Enter your email and password to access your Hemp account.'
                       : 'Create a customer account for saved addresses, wishlist, and checkout details.'}
                   </p>
                 </div>
@@ -419,7 +419,7 @@ export default function AccountPage() {
                         className="mt-1 h-4 w-4 accent-[#1F3D2B]"
                       />
                       I agree to receive account notifications, order updates, and
-                      delivery information from HempTrail.
+                      delivery information from Hemp.
                     </label>
 
                     <div className="sm:col-span-2">

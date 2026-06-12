@@ -51,14 +51,14 @@ export function WholesaleSuccessToast({ onClose }: WholesaleSuccessToastProps) {
               </div>
 
               <p className="mt-3 text-[14px] leading-6 text-[#222222]/58">
-                Thank you. HempTrail will review your wholesale request and contact you
+                Thank you. Hemp will review your wholesale request and contact you
                 shortly.
               </p>
 
               <div className="mt-4 h-px w-full bg-[#1F3D2B]/8" />
 
               <p className="mt-3 text-[10px] font-bold uppercase tracking-[0.16em] text-[#1F3D2B]/45">
-                HempTrail Wholesale
+                Hemp Wholesale
               </p>
             </div>
           </div>

@@ -34,7 +34,7 @@ const returnSections = [
   {
     title: 'Return Shipping',
     content:
-      'Return shipping costs may be the customer’s responsibility unless the item was damaged, defective, or incorrect due to an error from HempTrail.',
+      'Return shipping costs may be the customer’s responsibility unless the item was damaged, defective, or incorrect due to an error from Hemp.',
   },
   {
     title: 'Order Cancellation',
@@ -51,7 +51,7 @@ export default function ReturnPolicyPage() {
 
         <div className="relative mx-auto max-w-[1200px] px-5 py-20 text-center sm:px-6 lg:px-10 lg:py-24">
           <p className="text-[12px] font-bold uppercase tracking-[0.36em] text-[#9A6B4F]">
-            HempTrail Policy
+            Hemp Policy
           </p>
 
           <h1 className="mx-auto mt-5 max-w-5xl font-serif text-[56px] font-bold leading-[0.9] tracking-[-0.065em] text-[#1F3D2B] sm:text-[84px] lg:text-[104px]">
@@ -59,13 +59,13 @@ export default function ReturnPolicyPage() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-2xl text-[17px] leading-8 text-[#222222]/64">
-            We want every HempTrail product to reach you in good condition. This policy
+            We want every Hemp product to reach you in good condition. This policy
             explains how returns, refunds, exchanges, and cancellations are handled.
           </p>
 
           <div className="mx-auto mt-10 flex max-w-2xl flex-col gap-3 sm:flex-row sm:justify-center">
             <a
-              href="mailto:hello@hemptrail.com"
+              href="mailto:hello@hemp.com"
               className="inline-flex items-center justify-center bg-[#1F3D2B] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#173020]"
             >
               Request Return
@@ -161,15 +161,15 @@ export default function ReturnPolicyPage() {
               </h2>
 
               <p className="mt-5 max-w-2xl text-[16px] leading-8 text-[#FAF7F0]/68">
-                Please contact HempTrail first so we can confirm whether your item is
+                Please contact Hemp first so we can confirm whether your item is
                 eligible for return, refund, or exchange.
               </p>
 
               <a
-                href="mailto:hello@hemptrail.com"
+                href="mailto:hello@hemp.com"
                 className="mt-7 inline-flex items-center justify-center border border-[#FAF7F0] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#FAF7F0] hover:text-[#1F3D2B]"
               >
-                Email HempTrail
+                Email Hemp
               </a>
             </article>
           </div>

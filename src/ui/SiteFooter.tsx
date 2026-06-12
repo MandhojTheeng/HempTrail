@@ -83,7 +83,7 @@ function FooterToast({ onClose }: { onClose: () => void }) {
           </h3>
 
           <p className="mt-3 text-[14px] leading-6 text-[#1F3D2B]/62">
-            Thank you for joining HempTrail updates. We will send new collections and
+            Thank you for joining Hemp updates. We will send new collections and
             offers to your email.
           </p>
         </div>
@@ -171,9 +171,9 @@ export function SiteFooter() {
         <div className="relative mx-auto max-w-[1440px] px-5 py-20 sm:px-6 lg:px-10">
           <div className="grid gap-14 lg:grid-cols-[1.35fr_1fr_1fr_0.9fr]">
             <div>
-              <Link to="/" aria-label="HempTrail home" className="inline-block">
+              <Link to="/" aria-label="Hemp home" className="inline-block">
                 <span className="block font-serif text-[46px] font-bold leading-none tracking-[-0.06em] text-[#FAF7F0]">
-                  HempTrail
+                  Hemp
                 </span>
                 <span className="mt-3 block text-[11px] font-bold uppercase tracking-[0.32em] text-[#D8C3A5]">
                   Handmade Hemp Goods from Nepal
@@ -231,7 +231,7 @@ export function SiteFooter() {
 
             <div>
               <h3 className="text-[12px] font-bold uppercase tracking-[0.24em] text-[#D8C3A5]">
-                HempTrail
+                Hemp
               </h3>
 
               <nav className="mt-7 grid gap-5" aria-label="Footer company links">
@@ -271,12 +271,11 @@ export function SiteFooter() {
           </div>
 
           <div className="mt-16 flex flex-col justify-between gap-5 border-t border-[#FAF7F0]/15 pt-7 text-[13px] font-medium text-[#FAF7F0]/55 lg:flex-row">
-            <p>© {new Date().getFullYear()} HempTrail. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Hemp. All rights reserved.</p>
 
             <div className="flex flex-wrap gap-x-6 gap-y-2">
               <span>Kathmandu, Nepal</span>
               <span>Natural hemp fiber</span>
-              <span>Artisan-made goods</span>
             </div>
           </div>
         </div>

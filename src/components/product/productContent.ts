@@ -97,7 +97,7 @@ export function getProductSections(category: string): ProductSection[] {
         'Orders are prepared after confirmation',
         'Delivery time may depend on location',
         'Product availability may vary by stock',
-        'For wholesale or bulk orders, contact HempTrail directly',
+        'For wholesale or bulk orders, contact Hemp directly',
       ],
     },
   ]

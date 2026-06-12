@@ -39,7 +39,7 @@ export function HomeStorySection() {
             </h2>
 
             <p className="mt-8 max-w-xl text-[17px] leading-9 text-[#FAF7F0]/68">
-              Before a HempTrail product reaches the customer, it moves through a
+              Before a Hemp product reaches the customer, it moves through a
               simple but careful process: material, making, purpose. Nothing is added
               only for decoration. Every detail has to support real daily use.
             </p>

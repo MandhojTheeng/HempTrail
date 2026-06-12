@@ -117,7 +117,7 @@ export function HomeContactSection() {
               </h3>
 
               <p className="mt-3 text-sm leading-6 text-[#222222]/62">
-                Your message has been received. HempTrail will review your request and
+                Your message has been received. Hemp will review your request and
                 get back to you shortly.
               </p>
             </div>
@@ -137,7 +137,7 @@ export function HomeContactSection() {
       <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 gap-14 px-5 sm:px-6 lg:grid-cols-[0.42fr_0.58fr] lg:px-10">
         <div>
           <p className="text-[11px] font-bold uppercase tracking-[0.24em] text-[#9A6B4F]">
-            Contact HempTrail
+            Contact Hemp
           </p>
 
           <h2 className="mt-4 max-w-2xl font-serif text-[54px] font-bold leading-[0.86] tracking-[-0.075em] text-[#1F3D2B] sm:text-[78px] lg:text-[96px]">

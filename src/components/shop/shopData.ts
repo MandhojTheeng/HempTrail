@@ -127,13 +127,13 @@ export const products: Product[] = [
     alt: 'Charcoal everyday hemp backpack',
   },
   {
-    id: 'black-trail-hemp-backpack',
-    name: 'Black Trail Hemp Backpack',
+    id: 'black-hemp-backpack',
+    name: 'Black Hemp Backpack',
     category: 'Backpack',
     price: 'Rs 5,400',
     priceValue: 5400,
     image: product3DTwelve,
-    alt: 'Black trail hemp backpack',
+    alt: 'Black hemp backpack',
   },
   {
     id: 'cream-pocket-hemp-backpack',

@@ -4,12 +4,12 @@ const termsSections = [
   {
     title: 'Use of This Website',
     content:
-      'By using the HempTrail website, you agree to use it for lawful purposes only. You must not misuse the website, attempt to damage it, copy content without permission, or interfere with normal website operation.',
+      'By using the Hemp website, you agree to use it for lawful purposes only. You must not misuse the website, attempt to damage it, copy content without permission, or interfere with normal website operation.',
   },
   {
     title: 'Product Information',
     content:
-      'We try to display product details, images, colors, sizes, materials, and prices as accurately as possible. Since HempTrail products are handmade, small variations in texture, pattern, color, or finish may occur.',
+      'We try to display product details, images, colors, sizes, materials, and prices as accurately as possible. Since Hemp products are handmade, small variations in texture, pattern, color, or finish may occur.',
   },
   {
     title: 'Orders and Availability',
@@ -19,12 +19,12 @@ const termsSections = [
   {
     title: 'Pricing and Payment',
     content:
-      'Prices are listed in Nepali Rupees unless stated otherwise. HempTrail may update prices at any time. Payment must be completed through the available checkout method before an order can be processed.',
+      'Prices are listed in Nepali Rupees unless stated otherwise. Hemp may update prices at any time. Payment must be completed through the available checkout method before an order can be processed.',
   },
   {
     title: 'Shipping and Delivery',
     content:
-      'Shipping times may vary depending on location, courier service, product availability, and external conditions. HempTrail is not responsible for delays caused by incorrect delivery information, courier issues, weather, customs, or events outside our control.',
+      'Shipping times may vary depending on location, courier service, product availability, and external conditions. Hemp is not responsible for delays caused by incorrect delivery information, courier issues, weather, customs, or events outside our control.',
   },
   {
     title: 'Returns and Exchanges',
@@ -34,12 +34,12 @@ const termsSections = [
   {
     title: 'Intellectual Property',
     content:
-      'All website content, including brand name, product photos, text, graphics, layout, and design elements, belongs to HempTrail or its content providers. You may not copy, reproduce, or reuse content without permission.',
+      'All website content, including brand name, product photos, text, graphics, layout, and design elements, belongs to Hemp or its content providers. You may not copy, reproduce, or reuse content without permission.',
   },
   {
     title: 'Limitation of Liability',
     content:
-      'HempTrail is not responsible for indirect, incidental, or unexpected losses related to website use, product delays, courier issues, or third-party payment and delivery services.',
+      'Hemp is not responsible for indirect, incidental, or unexpected losses related to website use, product delays, courier issues, or third-party payment and delivery services.',
   },
   {
     title: 'Changes to Terms',
@@ -56,7 +56,7 @@ export default function TermsPage() {
 
         <div className="relative mx-auto max-w-[1200px] px-5 py-20 text-center sm:px-6 lg:px-10 lg:py-24">
           <p className="text-[12px] font-bold uppercase tracking-[0.36em] text-[#9A6B4F]">
-            HempTrail Policy
+            Hemp Policy
           </p>
 
           <h1 className="mx-auto mt-5 max-w-5xl font-serif text-[56px] font-bold leading-[0.9] tracking-[-0.065em] text-[#1F3D2B] sm:text-[84px] lg:text-[104px]">
@@ -64,7 +64,7 @@ export default function TermsPage() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-2xl text-[17px] leading-8 text-[#222222]/64">
-            These Terms & Conditions explain the rules for using the HempTrail website,
+            These Terms & Conditions explain the rules for using the Hemp website,
             placing orders, and purchasing handmade hemp goods from us.
           </p>
 
@@ -117,7 +117,7 @@ export default function TermsPage() {
                   Brand
                 </p>
                 <p className="mt-2 text-sm font-semibold text-[#1F3D2B]">
-                  HempTrail
+                  Hemp
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function TermsPage() {
                   Support
                 </p>
                 <p className="mt-2 text-sm font-semibold text-[#1F3D2B]">
-                  hello@hemptrail.com
+                  hello@hemp.com
                 </p>
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function TermsPage() {
               </p>
 
               <h2 className="mt-4 font-serif text-[38px] font-bold leading-[0.95] tracking-[-0.05em] sm:text-[52px]">
-                Contact HempTrail before placing an order.
+                Contact Hemp before placing an order.
               </h2>
 
               <p className="mt-5 max-w-2xl text-[16px] leading-8 text-[#FAF7F0]/68">

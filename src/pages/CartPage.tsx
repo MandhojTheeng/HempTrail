@@ -72,7 +72,7 @@ export default function CartPage() {
           <div className="mb-8 flex flex-col gap-4 border-b border-[#1F3D2B]/10 pb-7 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="text-[12px] font-bold uppercase tracking-[0.26em] text-[#9A6B4F]">
-                HempTrail Cart
+                Hemp Cart
               </p>
 
               <h1 className="mt-3 font-serif text-[44px] font-semibold uppercase leading-[0.9] tracking-[-0.065em] text-[#1F3D2B] sm:text-[64px] lg:text-[78px]">

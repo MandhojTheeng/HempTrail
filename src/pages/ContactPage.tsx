@@ -102,7 +102,7 @@ export default function ContactPage() {
               </h3>
 
               <p className="mt-3 text-sm leading-6 text-[#222222]/62">
-                Your message has been received. HempTrail will review your request and
+                Your message has been received. Hemp will review your request and
                 get back to you shortly.
               </p>
             </div>
@@ -124,7 +124,7 @@ export default function ContactPage() {
           <div className="flex min-h-[540px] items-center px-5 py-20 sm:px-6 lg:px-10">
             <div className="max-w-xl">
               <p className="text-[12px] font-bold uppercase tracking-[0.34em] text-[#9A6B4F]">
-                Contact HempTrail
+                Contact Hemp
               </p>
 
               <h1 className="mt-5 font-serif text-[56px] font-bold leading-[0.9] tracking-[-0.065em] text-[#1F3D2B] sm:text-[82px] lg:text-[96px]">
@@ -204,7 +204,7 @@ export default function ContactPage() {
                         Business inquiry
                       </span>
                       <span className="mt-2 block font-serif text-2xl font-bold tracking-[-0.04em] text-[#FAF7F0]">
-                        Wholesale with HempTrail
+                        Wholesale with Hemp
                       </span>
                     </span>
 
@@ -240,7 +240,7 @@ export default function ContactPage() {
                 Direct email
               </p>
               <p className="mt-3 font-serif text-2xl font-bold tracking-[-0.04em] text-[#1F3D2B]">
-                hello@hemptrail.com
+                hello@hemp.com
               </p>
               <p className="mt-3 text-[15px] leading-7 text-[#222222]/62">
                 For orders, wholesale, product details, and general support.

@@ -4,7 +4,7 @@ const policySections = [
   {
     title: 'Information We Collect',
     content:
-      'When you browse HempTrail, place an order, create an account, or contact us, we may collect details such as your name, email address, phone number, shipping address, billing details, order information, and messages sent through our forms.',
+      'When you browse Hemp, place an order, create an account, or contact us, we may collect details such as your name, email address, phone number, shipping address, billing details, order information, and messages sent through our forms.',
   },
   {
     title: 'How We Use Your Information',
@@ -14,7 +14,7 @@ const policySections = [
   {
     title: 'Orders and Payments',
     content:
-      'Payment information is handled through secure third-party payment services. HempTrail does not store full card or payment account details on this website.',
+      'Payment information is handled through secure third-party payment services. Hemp does not store full card or payment account details on this website.',
   },
   {
     title: 'Cookies and Website Data',
@@ -51,7 +51,7 @@ export default function PrivacyPolicyPage() {
 
         <div className="relative mx-auto max-w-[1200px] px-5 py-20 text-center sm:px-6 lg:px-10 lg:py-24">
           <p className="text-[12px] font-bold uppercase tracking-[0.36em] text-[#9A6B4F]">
-            HempTrail Policy
+            Hemp Policy
           </p>
 
           <h1 className="mx-auto mt-5 max-w-5xl font-serif text-[56px] font-bold leading-[0.9] tracking-[-0.065em] text-[#1F3D2B] sm:text-[84px] lg:text-[104px]">
@@ -59,13 +59,13 @@ export default function PrivacyPolicyPage() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-2xl text-[17px] leading-8 text-[#222222]/64">
-            This Privacy Policy explains how HempTrail collects, uses, protects, and
+            This Privacy Policy explains how Hemp collects, uses, protects, and
             manages your information when you visit our website or shop with us.
           </p>
 
           <div className="mx-auto mt-10 flex max-w-2xl flex-col gap-3 sm:flex-row sm:justify-center">
             <a
-              href="mailto:hello@hemptrail.com"
+              href="mailto:hello@hemp.com"
               className="inline-flex items-center justify-center bg-[#1F3D2B] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#173020]"
             >
               Contact Us
@@ -112,7 +112,7 @@ export default function PrivacyPolicyPage() {
                   Contact
                 </p>
                 <p className="mt-2 text-sm font-semibold text-[#1F3D2B]">
-                  hello@hemptrail.com
+                  hello@hemp.com
                 </p>
               </div>
             </div>
@@ -148,7 +148,7 @@ export default function PrivacyPolicyPage() {
               </p>
 
               <h2 className="mt-4 font-serif text-[38px] font-bold leading-[0.95] tracking-[-0.05em] sm:text-[52px]">
-                Contact HempTrail about your privacy.
+                Contact Hemp about your privacy.
               </h2>
 
               <p className="mt-5 max-w-2xl text-[16px] leading-8 text-[#FAF7F0]/68">
@@ -157,10 +157,10 @@ export default function PrivacyPolicyPage() {
               </p>
 
               <a
-                href="mailto:hello@hemptrail.com"
+                href="mailto:hello@hemp.com"
                 className="mt-7 inline-flex items-center justify-center border border-[#FAF7F0] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#FAF7F0] hover:text-[#1F3D2B]"
               >
-                Email HempTrail
+                Email Hemp
               </a>
             </article>
           </div>
