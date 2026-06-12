@@ -9,12 +9,12 @@ const shippingSections = [
   {
     title: 'Shipping Locations',
     content:
-      'We ship within Nepal and may support selected international orders depending on product availability, delivery partner coverage, and destination requirements.',
+      'We support selected shipping locations depending on product availability, delivery partner coverage, and destination requirements.',
   },
   {
     title: 'Delivery Time',
     content:
-      'Delivery time depends on your location and selected delivery method. Kathmandu Valley orders may arrive faster, while remote or international deliveries may take additional time.',
+      'Delivery time depends on your location and selected delivery method. Local orders may arrive faster, while remote or international deliveries may take additional time.',
   },
   {
     title: 'Shipping Charges',
@@ -29,7 +29,7 @@ const shippingSections = [
   {
     title: 'Incorrect Address',
     content:
-      'Please make sure your name, phone number, and shipping address are correct before placing an order. Hemp is not responsible for delays caused by incomplete or incorrect delivery details.',
+      'Please make sure your name, phone number, and shipping address are correct before placing an order. Ojasvi is not responsible for delays caused by incomplete or incorrect delivery details.',
   },
   {
     title: 'Delivery Delays',
@@ -51,7 +51,7 @@ export default function ShippingPolicyPage() {
 
         <div className="relative mx-auto max-w-[1200px] px-5 py-20 text-center sm:px-6 lg:px-10 lg:py-24">
           <p className="text-[12px] font-bold uppercase tracking-[0.36em] text-[#9A6B4F]">
-            Hemp Policy
+            Ojasvi Policy
           </p>
 
           <h1 className="mx-auto mt-5 max-w-5xl font-serif text-[56px] font-bold leading-[0.9] tracking-[-0.065em] text-[#1F3D2B] sm:text-[84px] lg:text-[104px]">
@@ -59,7 +59,7 @@ export default function ShippingPolicyPage() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-2xl text-[17px] leading-8 text-[#222222]/64">
-            This Shipping Policy explains how Hemp processes, packs, dispatches,
+            This Shipping Policy explains how Ojasvi processes, packs, dispatches,
             and delivers handmade hemp goods.
           </p>
 
@@ -94,7 +94,7 @@ export default function ShippingPolicyPage() {
 
             <p className="mt-5 text-[14px] leading-7 text-[#222222]/62">
               Each order is checked, packed, and prepared for delivery with care before
-              it leaves Hemp.
+              it leaves Ojasvi.
             </p>
 
             <div className="mt-7 space-y-4 border-t border-[#1F3D2B]/10 pt-6">
@@ -109,10 +109,10 @@ export default function ShippingPolicyPage() {
 
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#9A6B4F]">
-                  Origin
+                  Delivery
                 </p>
                 <p className="mt-2 text-sm font-semibold text-[#1F3D2B]">
-                  Kathmandu, Nepal
+                  Location-based timing
                 </p>
               </div>
 
@@ -121,7 +121,7 @@ export default function ShippingPolicyPage() {
                   Support
                 </p>
                 <p className="mt-2 text-sm font-semibold text-[#1F3D2B]">
-                  hello@hemp.com
+                  hello@ojasvi.com
                 </p>
               </div>
             </div>
@@ -161,7 +161,7 @@ export default function ShippingPolicyPage() {
               </h2>
 
               <p className="mt-5 max-w-2xl text-[16px] leading-8 text-[#FAF7F0]/68">
-                Contact Hemp with your order details if you need delivery support,
+                Contact Ojasvi with your order details if you need delivery support,
                 tracking information, or help with a delayed package.
               </p>
 

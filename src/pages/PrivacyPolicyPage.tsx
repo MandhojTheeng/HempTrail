@@ -65,7 +65,7 @@ export default function PrivacyPolicyPage() {
 
           <div className="mx-auto mt-10 flex max-w-2xl flex-col gap-3 sm:flex-row sm:justify-center">
             <a
-              href="mailto:hello@hemp.com"
+              href="mailto:hello@ojasvi.com"
               className="inline-flex items-center justify-center bg-[#1F3D2B] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#173020]"
             >
               Contact Us
@@ -112,7 +112,7 @@ export default function PrivacyPolicyPage() {
                   Contact
                 </p>
                 <p className="mt-2 text-sm font-semibold text-[#1F3D2B]">
-                  hello@hemp.com
+                  hello@ojasvi.com
                 </p>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function PrivacyPolicyPage() {
               </p>
 
               <a
-                href="mailto:hello@hemp.com"
+                href="mailto:hello@ojasvi.com"
                 className="mt-7 inline-flex items-center justify-center border border-[#FAF7F0] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#FAF7F0] hover:text-[#1F3D2B]"
               >
                 Email Hemp

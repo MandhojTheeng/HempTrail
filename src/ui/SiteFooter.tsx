@@ -181,13 +181,13 @@ export function SiteFooter() {
                 />
 
                 <span className="mt-4 block text-[11px] font-bold uppercase tracking-[0.32em] text-[#D8C3A5]">
-                  Handmade Hemp Goods from Nepal
+                  Handmade Hemp Goods
                 </span>
               </Link>
 
               <p className="mt-7 max-w-xl text-[16px] leading-8 text-[#FAF7F0]/68">
-                Durable hemp bags and accessories crafted by Nepali artisans for travel,
-                daily use, and conscious living.
+                Durable hemp bags and accessories crafted for travel, daily use, and
+                conscious living.
               </p>
 
               <form
@@ -279,8 +279,8 @@ export function SiteFooter() {
             <p>© {new Date().getFullYear()} Ojasvi. All rights reserved.</p>
 
             <div className="flex flex-wrap gap-x-6 gap-y-2">
-              <span>Kathmandu, Nepal</span>
               <span>Natural hemp fiber</span>
+              <span>Artisan-made goods</span>
             </div>
           </div>
         </div>

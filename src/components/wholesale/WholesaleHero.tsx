@@ -64,6 +64,7 @@ export function WholesaleHero() {
               <p className="text-[10px] font-bold uppercase tracking-[0.32em] text-[#9A6B4F]">
                 Built for display
               </p>
+
               <p className="mt-3 font-serif text-[28px] font-bold leading-[1.05] tracking-[-0.045em] text-[#1F3D2B]">
                 Natural texture, practical shape, retail-ready presence.
               </p>
@@ -91,20 +92,12 @@ export function WholesaleHero() {
               </Link>
             </div>
 
-            <div className="hidden grid-cols-3 divide-x divide-[#1F3D2B]/12 border-y border-[#1F3D2B]/12 bg-[#FAF7F0]/36 backdrop-blur lg:grid">
-              <div className="px-6 py-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#9A6B4F]">
-                  Origin
-                </p>
-                <p className="mt-2 font-serif text-xl font-bold text-[#1F3D2B]">
-                  Nepal
-                </p>
-              </div>
-
+            <div className="hidden grid-cols-2 divide-x divide-[#1F3D2B]/12 border-y border-[#1F3D2B]/12 bg-[#FAF7F0]/36 backdrop-blur lg:grid">
               <div className="px-6 py-4">
                 <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#9A6B4F]">
                   Material
                 </p>
+
                 <p className="mt-2 font-serif text-xl font-bold text-[#1F3D2B]">
                   Hemp
                 </p>
@@ -114,16 +107,13 @@ export function WholesaleHero() {
                 <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#9A6B4F]">
                   Supply
                 </p>
+
                 <p className="mt-2 font-serif text-xl font-bold text-[#1F3D2B]">
                   Retail
                 </p>
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="pointer-events-none absolute left-8 top-1/2 hidden -translate-y-1/2 text-[10px] font-bold uppercase tracking-[0.32em] text-[#1F3D2B]/45 [writing-mode:vertical-rl] lg:block">
-          Handmade in Nepal
         </div>
 
         <div className="pointer-events-none absolute right-8 top-1/2 hidden -translate-y-1/2 text-[10px] font-bold uppercase tracking-[0.32em] text-[#1F3D2B]/45 [writing-mode:vertical-rl] lg:block">

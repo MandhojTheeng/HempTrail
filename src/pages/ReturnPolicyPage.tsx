@@ -121,7 +121,7 @@ export default function ReturnPolicyPage() {
                   Contact
                 </p>
                 <p className="mt-2 text-sm font-semibold text-[#1F3D2B]">
-                  hello@hemptrail.com
+                  hello@ojasvi.com
                 </p>
               </div>
             </div>
@@ -166,7 +166,7 @@ export default function ReturnPolicyPage() {
               </p>
 
               <a
-                href="mailto:hello@hemp.com"
+                href="mailto:hello@ojasvi.com"
                 className="mt-7 inline-flex items-center justify-center border border-[#FAF7F0] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#FAF7F0] hover:text-[#1F3D2B]"
               >
                 Email Hemp

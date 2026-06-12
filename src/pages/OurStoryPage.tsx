@@ -15,20 +15,20 @@ const journeyItems = [
   {
     number: '02',
     eyebrow: 'Making',
-    title: 'The shape is built with simple Nepali craft and practical details.',
+    title: 'The shape is built with simple craft and practical details.',
     text: 'Panels, straps, pockets, and finishing are made with a focus on comfort, structure, and long-term use.',
   },
   {
     number: '03',
     eyebrow: 'Purpose',
     title: 'The final piece is made to move with you every day.',
-    text: 'From work to travel, shopping to short trips, Hemp bags are made to be used, not only displayed.',
+    text: 'From work to travel, shopping to short trips, Ojasvi bags are made to be used, not only displayed.',
   },
 ]
 
 const principles = [
   'Natural hemp texture',
-  'Nepali handmade craft',
+  'Handmade craft',
   'Practical daily carry',
   'Earthy timeless design',
 ]
@@ -111,12 +111,12 @@ export default function OurStoryPage() {
             </p>
 
             <h1 className="ht-story-fade ht-story-delay-1 mt-5 font-serif text-[58px] font-bold leading-[0.88] tracking-[-0.07em] text-[#1F3D2B] sm:text-[86px] lg:text-[108px]">
-              From Nepali craft to everyday carry.
+              From handmade craft to everyday carry.
             </h1>
 
             <p className="ht-story-fade ht-story-delay-2 mt-8 max-w-xl text-[18px] leading-9 text-[#222222]/68">
-              Hemp creates handmade hemp bags and accessories shaped by natural
-              fiber, practical design, and the quiet craft culture of Nepal.
+              Ojasvi creates handmade hemp bags and accessories shaped by natural
+              fiber, practical design, and careful everyday usability.
             </p>
 
             <div className="ht-story-fade ht-story-delay-2 mt-10 flex flex-col gap-3 sm:flex-row">
@@ -140,7 +140,7 @@ export default function OurStoryPage() {
             <div className="absolute right-0 top-0 h-[540px] w-[72%] overflow-hidden bg-[#D8C3A5] shadow-[0_30px_80px_rgba(34,34,34,0.12)]">
               <img
                 src={storyBackpack}
-                alt="Hemp handmade hemp backpack"
+                alt="Ojasvi handmade hemp backpack"
                 className="h-full w-full object-cover object-top"
               />
             </div>
@@ -169,7 +169,7 @@ export default function OurStoryPage() {
           </p>
 
           <h2 className="mt-5 font-serif text-[46px] font-bold leading-[0.98] tracking-[-0.06em] text-[#1F3D2B] sm:text-[72px]">
-            Hemp was made to feel honest before it feels branded.
+            Ojasvi was made to feel honest before it feels branded.
           </h2>
 
           <p className="mx-auto mt-9 max-w-3xl text-[18px] leading-9 text-[#222222]/66">
@@ -196,7 +196,7 @@ export default function OurStoryPage() {
               </h2>
 
               <p className="mt-8 max-w-xl text-[17px] leading-9 text-[#FAF7F0]/68">
-                Before a Hemp product reaches the customer, it moves through a
+                Before an Ojasvi product reaches the customer, it moves through a
                 simple but careful process: material, making, purpose. Nothing is added
                 only for decoration. Every detail has to support real daily use.
               </p>
@@ -223,6 +223,7 @@ export default function OurStoryPage() {
                 <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-[#9A6B4F]">
                   Crafted slowly
                 </p>
+
                 <p className="mt-3 font-serif text-[32px] font-bold leading-[0.96] tracking-[-0.05em]">
                   The value is in the small details.
                 </p>
@@ -245,11 +246,11 @@ export default function OurStoryPage() {
                   </span>
 
                   <div>
-                    <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-[#D8C3A5]">
+                    <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#D8C3A5]/70">
                       {item.eyebrow}
                     </p>
 
-                    <h3 className="mt-4 font-serif text-[31px] font-bold leading-[1] tracking-[-0.045em] text-[#FAF7F0]">
+                    <h3 className="mt-3 font-serif text-[31px] font-bold leading-[1] tracking-[-0.045em] text-[#FAF7F0]">
                       {item.title}
                     </h3>
 
@@ -264,108 +265,56 @@ export default function OurStoryPage() {
         </div>
       </section>
 
-      <section className="relative bg-[#FAF7F0] py-24 lg:py-32">
-        <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-16 px-5 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-10">
-          <div className="relative min-h-[780px]">
-            <div className="absolute left-0 top-0 h-[58%] w-[70%] overflow-hidden bg-[#D8C3A5] shadow-[0_30px_80px_rgba(34,34,34,0.1)]">
-              <img
-                src={storyBagCloseup}
-                alt="Close-up of handmade hemp bag"
-                className="h-full w-full object-cover object-top transition duration-700 hover:scale-105"
-              />
-            </div>
+      <section className="bg-[#FAF7F0] py-24 lg:py-32">
+        <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-12 px-5 sm:px-6 lg:grid-cols-[0.85fr_1.15fr] lg:px-10">
+          <div>
+            <p className="text-[12px] font-bold uppercase tracking-[0.34em] text-[#9A6B4F]">
+              Our Principles
+            </p>
 
-            <div className="absolute bottom-0 right-0 h-[54%] w-[62%] overflow-hidden bg-[#D8C3A5] shadow-[0_30px_80px_rgba(34,34,34,0.14)]">
-              <img
-                src={storyWorkshop}
-                alt="Hemp handmade product process"
-                className="h-full w-full object-cover object-top transition duration-700 hover:scale-105"
-              />
-            </div>
-
-            <div className="absolute left-[12%] top-[45%] hidden w-[300px] -translate-y-1/2 bg-[#1F3D2B] p-7 text-[#FAF7F0] shadow-[0_25px_70px_rgba(34,34,34,0.16)] lg:block">
-              <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-[#D8C3A5]">
-                Material Mood
-              </p>
-
-              <p className="mt-3 font-serif text-[32px] font-bold leading-none tracking-[-0.05em]">
-                Earthy, useful, warm.
-              </p>
-            </div>
+            <h2 className="mt-5 max-w-xl font-serif text-[48px] font-bold leading-[0.95] tracking-[-0.06em] text-[#1F3D2B] sm:text-[74px]">
+              Simple values guide every product.
+            </h2>
           </div>
 
-          <div className="flex items-center">
-            <div>
-              <p className="text-[12px] font-bold uppercase tracking-[0.32em] text-[#9A6B4F]">
-                Design Language
-              </p>
-
-              <h2 className="mt-5 font-serif text-[48px] font-bold leading-[0.94] tracking-[-0.06em] text-[#1F3D2B] sm:text-[72px]">
-                We keep it quiet so the craft can speak.
-              </h2>
-
-              <div className="mt-9 space-y-6 text-[17px] leading-9 text-[#222222]/66">
-                <p>
-                  Hemp avoids unnecessary decoration. The products are built around
-                  texture, practical pockets, dependable straps, and natural colors that
-                  work with everyday clothing.
-                </p>
-
-                <p>
-                  The result is a collection that feels grounded: modern enough for an
-                  online store, but still close to the handmade roots of Nepal.
+          <div className="grid gap-4 sm:grid-cols-2">
+            {principles.map((item) => (
+              <div
+                key={item}
+                className="border border-[#1F3D2B]/10 bg-white/55 p-7 transition hover:border-[#1F3D2B]/25 hover:bg-white"
+              >
+                <p className="font-serif text-[34px] font-bold leading-none tracking-[-0.05em] text-[#1F3D2B]">
+                  {item}
                 </p>
               </div>
-
-              <div className="mt-10 grid grid-cols-2 gap-3">
-                {principles.map((item) => (
-                  <div
-                    key={item}
-                    className="border border-[#1F3D2B]/10 bg-[#F1E7D7]/70 px-5 py-4 text-[12px] font-bold uppercase tracking-[0.18em] text-[#1F3D2B] transition hover:bg-[#E7D7C1]"
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-[#1F3D2B] text-[#FAF7F0]">
-        <div className="mx-auto grid max-w-[1440px] grid-cols-1 lg:grid-cols-2">
-          <div className="flex items-center px-5 py-24 sm:px-6 lg:px-10">
-            <div className="max-w-xl">
-              <p className="text-[12px] font-bold uppercase tracking-[0.32em] text-[#D8C3A5]">
-                The Purpose
-              </p>
+      <section className="bg-[#1F3D2B] px-5 py-20 text-center text-[#FAF7F0] sm:px-6 lg:px-10">
+        <p className="text-[12px] font-bold uppercase tracking-[0.34em] text-[#D8C3A5]">
+          Made for everyday movement
+        </p>
 
-              <h2 className="mt-5 font-serif text-[50px] font-bold leading-[0.94] tracking-[-0.06em] sm:text-[76px]">
-                A bag should be carried, not just displayed.
-              </h2>
+        <h2 className="mx-auto mt-5 max-w-4xl font-serif text-[48px] font-bold leading-[0.95] tracking-[-0.06em] sm:text-[76px]">
+          Carry something natural, useful, and made with care.
+        </h2>
 
-              <p className="mt-8 text-[17px] leading-8 text-[#FAF7F0]/68">
-                That is why every Hemp product is made for daily use first. It should
-                feel comfortable, useful, strong, and easy to return to every day.
-              </p>
+        <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
+          <Link
+            to="/shop"
+            className="inline-flex items-center justify-center border border-[#FAF7F0] px-9 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#FAF7F0] hover:text-[#1F3D2B]"
+          >
+            Shop Collection
+          </Link>
 
-              <Link
-                to="/shop"
-                className="mt-10 inline-flex items-center justify-center border border-[#FAF7F0] px-9 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#FAF7F0] transition hover:bg-[#FAF7F0] hover:text-[#1F3D2B]"
-              >
-                Explore Products
-              </Link>
-            </div>
-          </div>
-
-          <div className="relative min-h-[720px] overflow-hidden bg-[#173020]">
-            <img
-              src={storyBackpack}
-              alt="Hemp hemp backpack"
-              className="h-full w-full object-cover object-top"
-            />
-            <div className="absolute inset-0 bg-[#1F3D2B]/10" />
-          </div>
+          <Link
+            to="/contact"
+            className="inline-flex items-center justify-center bg-[#FAF7F0] px-9 py-4 text-[12px] font-bold uppercase tracking-[0.22em] text-[#1F3D2B] transition hover:bg-[#D8C3A5]"
+          >
+            Contact Us
+          </Link>
         </div>
       </section>
     </main>

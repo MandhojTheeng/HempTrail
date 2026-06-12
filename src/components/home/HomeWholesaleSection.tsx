@@ -42,8 +42,8 @@ export function HomeWholesaleSection() {
             </h2>
 
             <p className="mx-auto mt-7 max-w-md text-[16px] leading-8 text-[#222222]/62">
-              Stock natural hemp goods crafted in Nepal for boutiques, markets, and
-              conscious lifestyle stores.
+              Stock natural hemp goods for boutiques, markets, and conscious lifestyle
+              stores.
             </p>
 
             <div className="mx-auto mt-9 flex max-w-md flex-col justify-center gap-3 sm:flex-row">
@@ -62,16 +62,7 @@ export function HomeWholesaleSection() {
               </Link>
             </div>
 
-            <div className="mx-auto mt-12 grid max-w-md grid-cols-3 divide-x divide-[#1F3D2B]/10 border-y border-[#1F3D2B]/10 bg-[#FAF7F0]/50 backdrop-blur">
-              <div className="px-3 py-5">
-                <p className="text-[9px] font-bold uppercase tracking-[0.24em] text-[#9A6B4F]">
-                  Origin
-                </p>
-                <p className="mt-2 font-serif text-xl font-bold text-[#1F3D2B]">
-                  Nepal
-                </p>
-              </div>
-
+            <div className="mx-auto mt-12 grid max-w-md grid-cols-2 divide-x divide-[#1F3D2B]/10 border-y border-[#1F3D2B]/10 bg-[#FAF7F0]/50 backdrop-blur">
               <div className="px-3 py-5">
                 <p className="text-[9px] font-bold uppercase tracking-[0.24em] text-[#9A6B4F]">
                   Fiber

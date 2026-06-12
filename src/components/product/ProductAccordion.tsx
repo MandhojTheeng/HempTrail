@@ -52,7 +52,7 @@ export function ProductAccordion({
         </p>
 
         <p className="mt-2 text-[14px] leading-7 text-[#222222]/58">
-          Handmade in Nepal using natural hemp material and practical everyday
+          Handmade using natural hemp material and practical everyday
           construction.
         </p>
       </div>

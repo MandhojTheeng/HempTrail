@@ -19,7 +19,7 @@ const termsSections = [
   {
     title: 'Pricing and Payment',
     content:
-      'Prices are listed in Nepali Rupees unless stated otherwise. Hemp may update prices at any time. Payment must be completed through the available checkout method before an order can be processed.',
+      'Prices are listed  unless stated otherwise. Hemp may update prices at any time. Payment must be completed through the available checkout method before an order can be processed.',
   },
   {
     title: 'Shipping and Delivery',
@@ -126,7 +126,7 @@ export default function TermsPage() {
                   Support
                 </p>
                 <p className="mt-2 text-sm font-semibold text-[#1F3D2B]">
-                  hello@hemp.com
+                  hello@ojasvi.com
                 </p>
               </div>
             </div>

@@ -73,20 +73,12 @@ export function WholesaleInquirySection({ onSubmit }: WholesaleInquirySectionPro
               />
             </div>
 
-            <div className="absolute bottom-8 left-8 right-8 z-20 grid grid-cols-3 divide-x divide-[#FAF7F0]/15 border-y border-[#FAF7F0]/15 bg-[#1F3D2B]/40 backdrop-blur">
-              <div className="px-3 py-4 text-center">
-                <p className="text-[9px] font-bold uppercase tracking-[0.22em] text-[#D8C3A5]">
-                  Origin
-                </p>
-                <p className="mt-2 font-serif text-lg font-bold text-[#FAF7F0]">
-                  Nepal
-                </p>
-              </div>
-
+            <div className="absolute bottom-8 left-8 right-8 z-20 grid grid-cols-2 divide-x divide-[#FAF7F0]/15 border-y border-[#FAF7F0]/15 bg-[#1F3D2B]/40 backdrop-blur">
               <div className="px-3 py-4 text-center">
                 <p className="text-[9px] font-bold uppercase tracking-[0.22em] text-[#D8C3A5]">
                   Goods
                 </p>
+
                 <p className="mt-2 font-serif text-lg font-bold text-[#FAF7F0]">
                   Hemp
                 </p>
@@ -96,6 +88,7 @@ export function WholesaleInquirySection({ onSubmit }: WholesaleInquirySectionPro
                 <p className="text-[9px] font-bold uppercase tracking-[0.22em] text-[#D8C3A5]">
                   Supply
                 </p>
+
                 <p className="mt-2 font-serif text-lg font-bold text-[#FAF7F0]">
                   Retail
                 </p>
@@ -119,6 +112,7 @@ export function WholesaleInquirySection({ onSubmit }: WholesaleInquirySectionPro
                 <label className="mb-3 block text-[11px] font-bold uppercase tracking-[0.22em] text-[#1F3D2B]">
                   Full Name
                 </label>
+
                 <input
                   type="text"
                   required
@@ -132,6 +126,7 @@ export function WholesaleInquirySection({ onSubmit }: WholesaleInquirySectionPro
                 <label className="mb-3 block text-[11px] font-bold uppercase tracking-[0.22em] text-[#1F3D2B]">
                   Business Name
                 </label>
+
                 <input
                   type="text"
                   required
@@ -147,6 +142,7 @@ export function WholesaleInquirySection({ onSubmit }: WholesaleInquirySectionPro
                 <label className="mb-3 block text-[11px] font-bold uppercase tracking-[0.22em] text-[#1F3D2B]">
                   Email Address
                 </label>
+
                 <input
                   type="email"
                   required
@@ -160,6 +156,7 @@ export function WholesaleInquirySection({ onSubmit }: WholesaleInquirySectionPro
                 <label className="mb-3 block text-[11px] font-bold uppercase tracking-[0.22em] text-[#1F3D2B]">
                   Location
                 </label>
+
                 <input
                   type="text"
                   required

@@ -54,7 +54,7 @@ export function WholesaleProcess() {
                   <div className="mt-10 flex items-center gap-4">
                     <span className="h-px flex-1 bg-[#1F3D2B]/14" />
                     <span className="text-[11px] font-bold uppercase tracking-[0.22em] text-[#9A6B4F]">
-                      HempTrail
+                      Ojasvi
                     </span>
                   </div>
                 </div>

@@ -11,8 +11,8 @@ const storyPoints = [
   },
   {
     number: '02',
-    title: 'Nepali handmade craft',
-    text: 'Each bag carries the quiet character of local making, simple construction, and useful details.',
+    title: 'Handmade craft',
+    text: 'Each bag carries the quiet character of careful making, simple construction, and useful details.',
   },
   {
     number: '03',
@@ -39,9 +39,9 @@ export function HomeStorySection() {
             </h2>
 
             <p className="mt-8 max-w-xl text-[17px] leading-9 text-[#FAF7F0]/68">
-              Before a Hemp product reaches the customer, it moves through a
-              simple but careful process: material, making, purpose. Nothing is added
-              only for decoration. Every detail has to support real daily use.
+              Before a Hemp product reaches the customer, it moves through a simple
+              but careful process: material, making, purpose. Nothing is added only
+              for decoration. Every detail has to support real daily use.
             </p>
 
             <Link

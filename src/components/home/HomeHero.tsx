@@ -21,10 +21,6 @@ export function HomeHero() {
           Hemp
         </p>
 
-        <p className="pointer-events-none absolute right-[4%] bottom-[12%] hidden font-serif text-[8vw] font-bold leading-none tracking-[-0.09em] text-[#9A6B4F]/[0.04] xl:block">
-          Nepal
-        </p>
-
         <div className="relative grid min-h-[auto] grid-cols-1 gap-8 lg:min-h-[calc(100vh-190px)] lg:grid-cols-[0.47fr_0.53fr] lg:gap-0">
           <div className="relative z-40 flex items-center pt-8 sm:pt-10 lg:pt-0">
             <div className="max-w-3xl">
@@ -33,8 +29,8 @@ export function HomeHero() {
               </h1>
 
               <p className="ht-home-fade ht-home-delay-2 mt-6 max-w-[510px] text-[15px] leading-7 text-[#222222]/62 sm:mt-7 sm:text-[16px] sm:leading-8">
-                Durable hemp bags and accessories crafted in Nepal, designed for daily
-                carry, travel, and conscious living.
+                Durable hemp bags and accessories designed for daily carry, travel, and
+                conscious living.
               </p>
 
               <div className="ht-home-fade ht-home-delay-2 mt-8 flex flex-col gap-3 min-[460px]:flex-row sm:mt-10">
@@ -113,17 +109,6 @@ export function HomeHero() {
             </Link>
 
             <div className="absolute bottom-[42px] left-1/2 z-0 h-24 w-[82%] -translate-x-1/2 rounded-full bg-[#1F3D2B]/10 blur-3xl sm:bottom-[58px] sm:h-32 sm:w-[86%] lg:bottom-[62px]" />
-
-            <div className="absolute right-[6%] top-[49%] z-10 hidden h-px w-[160px] bg-[#1F3D2B]/14 lg:block" />
-
-            <div className="absolute right-[5%] top-[47%] z-40 hidden -translate-y-1/2 lg:block">
-              <div className="flex items-center gap-3">
-                <span className="h-2 w-2 rounded-full bg-[#9A6B4F]" />
-                <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-[#9A6B4F]">
-                  Nepal Made
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 const features = [
   {
-    label: 'Made in Nepal',
+    label: 'Handmade Quality',
     title: 'Artisan crafted',
   },
   {
