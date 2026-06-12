@@ -9,9 +9,43 @@ export type CartItem = {
   slug: string
 }
 
-export type CartAction =
-  | { type: 'ADD'; payload: { productId: string; name: string; price: Money; image?: string; slug: string; quantity?: number } }
-  | { type: 'SET_QTY'; payload: { productId: string; quantity: number } }
-  | { type: 'REMOVE'; payload: { productId: string } }
-  | { type: 'CLEAR' }
+export type AddCartItemPayload = {
+  productId: string
+  name: string
+  price: Money
+  image?: string
+  slug: string
+  quantity?: number
+}
 
+export type CartAction =
+  | {
+      type: 'ADD'
+      payload: AddCartItemPayload
+    }
+  | {
+      type: 'SET_QTY'
+      payload: {
+        productId: string
+        quantity: number
+      }
+    }
+  | {
+      type: 'REMOVE'
+      payload: {
+        productId: string
+      }
+    }
+  | {
+      type: 'CLEAR'
+    }
+
+export type CartContextValue = {
+  items: CartItem[]
+  addToCart: (item: AddCartItemPayload) => void
+  setQuantity: (productId: string, quantity: number) => void
+  removeFromCart: (productId: string) => void
+  clearCart: () => void
+  cartCount: number
+  cartTotal: Money
+}
