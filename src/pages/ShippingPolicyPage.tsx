@@ -9,7 +9,7 @@ const shippingSections = [
   {
     title: 'Shipping Locations',
     content:
-      'We support selected shipping locations depending on product availability, delivery partner coverage, and destination requirements.',
+      'We currently ship within the USA, with shipping available in North Carolina depending on product availability, delivery partner coverage, and destination requirements.',
   },
   {
     title: 'Delivery Time',
@@ -161,7 +161,7 @@ export default function ShippingPolicyPage() {
               </h2>
 
               <p className="mt-5 max-w-2xl text-[16px] leading-8 text-[#FAF7F0]/68">
-                Contact Ojasvi with your order details if you need delivery support,
+                Contact Ojasvi LLC with your order details if you need delivery support,
                 tracking information, or help with a delayed package.
               </p>
 
