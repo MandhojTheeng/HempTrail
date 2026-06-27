@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import oasjviLogo from '../../assets/oasjvi.webp'
+import oasjviLogo from '../../assets/ojasvi.webp'
 
 export function HeaderLogo() {
   return (

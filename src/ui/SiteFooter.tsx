@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import ojasviLogo from '../assets/oasjvi.webp'
+import ojasviLogo from '../assets/ojasvi.png'
 
 const supportLinks = [
   { label: 'Shipping Policy', to: '/shipping-policy' },
@@ -177,16 +177,16 @@ export function SiteFooter() {
                 <img
                   src={ojasviLogo}
                   alt="Ojasvi"
-                  className="h-16 w-auto object-contain brightness-0 invert sm:h-20"
+                  className="h-16 w-auto object-contain sm:h-20"
                 />
 
                 <span className="mt-4 block text-[11px] font-bold uppercase tracking-[0.32em] text-[#D8C3A5]">
-                  Handmade Hemp Goods
+                  Handmade Ojasvi LLC Goods
                 </span>
               </Link>
 
               <p className="mt-7 max-w-xl text-[16px] leading-8 text-[#FAF7F0]/68">
-                Durable hemp bags and accessories crafted for travel, daily use, and
+                Durable Ojasvi LLC bags and accessories crafted for travel, daily use, and
                 conscious living.
               </p>
 
@@ -276,10 +276,10 @@ export function SiteFooter() {
           </div>
 
           <div className="mt-16 flex flex-col justify-between gap-5 border-t border-[#FAF7F0]/15 pt-7 text-[13px] font-medium text-[#FAF7F0]/55 lg:flex-row">
-            <p>© {new Date().getFullYear()} Ojasvi. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} OjasviLLC. All rights reserved.</p>
 
             <div className="flex flex-wrap gap-x-6 gap-y-2">
-              <span>Natural hemp fiber</span>
+              <span>Natural Ojasvi LLC fiber</span>
               <span>Artisan-made goods</span>
             </div>
           </div>
