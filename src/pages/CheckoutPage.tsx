@@ -435,7 +435,7 @@ export default function CheckoutPage() {
                           </div>
 
                           <p className="text-[14px] font-bold uppercase tracking-[0.08em] text-[#1F3D2B]">
-                            Rs {(item.priceValue * item.quantity).toLocaleString()}
+                            $ {(item.priceValue * item.quantity).toLocaleString()}
                           </p>
                         </div>
                       </article>
@@ -464,14 +464,14 @@ export default function CheckoutPage() {
                   <div className="flex items-center justify-between text-[14px] text-[#222222]/65">
                     <span>Subtotal</span>
                     <span className="font-bold text-[#222222]">
-                      Rs {subtotal.toLocaleString()}
+                      $ {subtotal.toLocaleString()}
                     </span>
                   </div>
 
                   <div className="flex items-center justify-between text-[14px] text-[#222222]/65">
                     <span>Delivery</span>
                     <span className="font-bold text-[#222222]">
-                      Rs {deliveryFee.toLocaleString()}
+                      $ {deliveryFee.toLocaleString()}
                     </span>
                   </div>
 
@@ -489,7 +489,7 @@ export default function CheckoutPage() {
                   </span>
 
                   <span className="font-serif text-[30px] font-semibold uppercase tracking-[-0.045em] text-[#1F3D2B]">
-                    Rs {grandTotal.toLocaleString()}
+                    $ {grandTotal.toLocaleString()}
                   </span>
                 </div>
 
